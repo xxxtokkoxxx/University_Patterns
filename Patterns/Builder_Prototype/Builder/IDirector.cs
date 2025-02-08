@@ -1,6 +1,6 @@
-using Patterns.BuilderAndPrototype.Player;
+using Patterns.Builder_Prototype.Player;
 
-namespace Patterns.BuilderAndPrototype.Builder;
+namespace Patterns.Builder_Prototype.Builder;
 
 public interface IDirector
 {

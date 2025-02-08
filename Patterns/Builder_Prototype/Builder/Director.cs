@@ -1,6 +1,6 @@
-using Patterns.BuilderAndPrototype.Player;
+using Patterns.Builder_Prototype.Player;
 
-namespace Patterns.BuilderAndPrototype.Builder;
+namespace Patterns.Builder_Prototype.Builder;
 
 public class Director : IDirector
 {
@@ -30,6 +30,8 @@ public class Director : IDirector
 
     public IUnit CreateBattleMage()
     {
-        throw new NotImplementedException();
-    }
+        IUnit unit = _builder.CreateUnit();
+        unit.AddAbility(new MeleeAttack());
+        unit.AddAbility(new MagicAttack());
+        return unit;    }
 }
