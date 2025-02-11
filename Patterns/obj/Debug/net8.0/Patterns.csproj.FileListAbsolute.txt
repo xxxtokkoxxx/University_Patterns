@@ -3,3 +3,13 @@ D:\University_Patterns\Patterns\obj\Debug\net8.0\Patterns.AssemblyInfoInputs.cac
 D:\University_Patterns\Patterns\obj\Debug\net8.0\Patterns.AssemblyInfo.cs
 D:\University_Patterns\Patterns\obj\Debug\net8.0\Patterns.csproj.CoreCompileInputs.cache
 D:\University_Patterns\Patterns\obj\Debug\net8.0\Patterns.sourcelink.json
+D:\University_Patterns\Patterns\bin\Debug\net8.0\Patterns.exe
+D:\University_Patterns\Patterns\bin\Debug\net8.0\Patterns.deps.json
+D:\University_Patterns\Patterns\bin\Debug\net8.0\Patterns.runtimeconfig.json
+D:\University_Patterns\Patterns\bin\Debug\net8.0\Patterns.dll
+D:\University_Patterns\Patterns\bin\Debug\net8.0\Patterns.pdb
+D:\University_Patterns\Patterns\obj\Debug\net8.0\Patterns.dll
+D:\University_Patterns\Patterns\obj\Debug\net8.0\refint\Patterns.dll
+D:\University_Patterns\Patterns\obj\Debug\net8.0\Patterns.pdb
+D:\University_Patterns\Patterns\obj\Debug\net8.0\Patterns.genruntimeconfig.cache
+D:\University_Patterns\Patterns\obj\Debug\net8.0\ref\Patterns.dll
