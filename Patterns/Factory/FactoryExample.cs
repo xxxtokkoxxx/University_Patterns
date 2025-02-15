@@ -4,13 +4,13 @@ using Patterns.Factory.Shapes;
 
 namespace Patterns.Factory;
 
-public class ShapesRenderer
+public class FactoryExample
 {
     public void RenderShapesWithFactoryMethod()
     {
         IShape shape;
         ICreator creator;
-        
+
         creator = new TriangleFactory();
         shape = creator.FactoryMethod();
         Console.WriteLine(shape.Render());
@@ -18,7 +18,7 @@ public class ShapesRenderer
         creator = new SphereFactory();
         shape = creator.FactoryMethod();
         Console.WriteLine(shape.Render());
-        
+
         creator = new SquadFactory();
         shape = creator.FactoryMethod();
         Console.WriteLine(shape.Render());
@@ -34,7 +34,7 @@ public class ShapesRenderer
 
         shape = shapeAbstractFactory.CreateSquad();
         Console.WriteLine(shape.Render());
-        
+
         shape = shapeAbstractFactory.CreateTriangle();
         Console.WriteLine(shape.Render());
     }
